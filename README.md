@@ -39,11 +39,11 @@ Please send any questions to info@thisisant.com.
 <u>Changelog:</u>
 --------------------------------
 <b>v.2.2.0, posted Sept 8 2013:</b>
--Change: requestAccess methods will now return 'ADAPTER_NOT_DETECTED' on platforms where ANT radio is not built-in to hardware and there are no other adapters plugged-in
--Change: requestAccess methods will now return 'BAD_PARAMS' for requests that have invalid parameter values instead of throwing exceptions
--Change: default device name for devices not saved in the plugin database to '-not saved-' instead of 'unknown'
--Fix: null pointer exception in background scan reported by G&ST
--Fix: geocache plugin to work with unprogrammed chirps
--Fix: bike speed and cadence issues with saving info to the built-in device database
--Fix: bike power plugin crashing using asynchronous request access methods
+-Change: requestAccess methods will now return 'ADAPTER_NOT_DETECTED' on platforms where ANT radio is not built-in to hardware and there are no other adapters plugged-in<br/>
+-Change: requestAccess methods will now return 'BAD_PARAMS' for requests that have invalid parameter values instead of throwing exceptions<br/>
+-Change: default device name for devices not saved in the plugin database to '-not saved-' instead of 'unknown'<br/>
+-Fix: null pointer exception in background scan reported by G&ST<br/>
+-Fix: geocache plugin to work with unprogrammed chirps<br/>
+-Fix: bike speed and cadence issues with saving info to the built-in device database<br/>
+-Fix: bike power plugin crashing using asynchronous request access methods<br/>
 
