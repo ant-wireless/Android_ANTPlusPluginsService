@@ -1,5 +1,7 @@
 The ANT+ Plugins is an Android application which allows applications to use ANT+ wireless technology to communicate with millions of ANT+ enabled devices. The plugins communicate with the ANT radio via the ANT Radio Service, and abstract searching for and connecting to devices and ANT+ encoding/decoding into a simple to use, easy to understand API for applications to use.
 <br/>
+Note: Changelog at bottom.
+<br/>
 
 <u>Attention Developers!</u> Using the ANT+ plugins in your app to communicate with ANT+ devices is quick, easy, and free and uses a simplified API that doesn't require referencing technical documents or learning new protocols. Visit the ANT Android Developer page http://www.thisisant.com/developer/ant/ant-in-android/ for more info and to download the SDK.
 <br/>
@@ -32,3 +34,16 @@ Please send any questions to info@thisisant.com.
 <br/>
 
 <u>Also note</u>: This service requires the ANT Radio Service to be installed and not all phones support ANT communication, please refer to the ANT Radio Service listing for more info: https://play.google.com/store/apps/details?id=com.dsi.ant.service.socket.</i>
+
+--------------------------------
+<u>Changelog:</u>
+--------------------------------
+<b>v.2.2.0, posted Sept 8 2013:</b>
+-Change: requestAccess methods will now return 'ADAPTER_NOT_DETECTED' on platforms where ANT radio is not built-in to hardware and there are no other adapters plugged-in
+-Change: requestAccess methods will now return 'BAD_PARAMS' for requests that have invalid parameter values instead of throwing exceptions
+-Change: default device name for devices not saved in the plugin database to '-not saved-' instead of 'unknown'
+-Fix: null pointer exception in background scan reported by G&ST
+-Fix: geocache plugin to work with unprogrammed chirps
+-Fix: bike speed and cadence issues with saving info to the built-in device database
+-Fix: bike power plugin crashing using asynchronous request access methods
+
