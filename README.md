@@ -1,3 +1,6 @@
+ANT+ Plugins Service 2.2.0
+===============
+
 The ANT+ Plugins is an Android application which allows applications to use ANT+ wireless technology to communicate with millions of ANT+ enabled devices. The plugins communicate with the ANT radio via the ANT Radio Service, and abstract searching for and connecting to devices and ANT+ encoding/decoding into a simple to use, easy to understand API for applications to use.
 <br/>
 Note: Changelog at bottom.
