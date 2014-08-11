@@ -1,6 +1,6 @@
-ANT+ Plugins Service 3.0.0.RC1
+ANT+ Plugins Service 3.1.0
 ===============
-Public Stable Release Candidate. Scheduled to go live on Play Store 2 July 2014
+
 ---------------
 
 Description
@@ -21,4 +21,4 @@ SDK available on GitHub: https://github.com/ant-wireless/ANT-Android-SDKs/tree/m
 
 Changelog
 ----------------
-Detailed changelog available in the SDK project readme file: https://github.com/ant-wireless/ANT-Android-SDKs/tree/master/ANT%2B_Android_SDK
+Detailed changelog available in the SDK project readme file: https://github.com/ant-wireless/ANT-Android-SDKs/blob/master/ANT%2B_Android_SDK/README.md
