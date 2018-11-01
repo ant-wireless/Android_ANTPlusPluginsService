@@ -1,4 +1,4 @@
-ANT+ Plugins Service 3.6.0 - 31 Aug 2015
+ANT+ Plugins Service 3.6.40 - 31 Oct 2018
 ========================================
 This repo mirrors the apk hosted on the Google Play Store. Branches may also be used for release candidate notifications or beta testing.
 Detailed description at https://play.google.com/store/apps/details?id=com.dsi.ant.plugins.antplus
